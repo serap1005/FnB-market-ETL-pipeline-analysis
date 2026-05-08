@@ -1,0 +1,20 @@
+/bronze
+
+# Local Python env
+.venv/
+
+# Airflow runtime state (generated locally)
+.airflow/
+
+# Local ETL outputs
+/silver/
+/silver_local/
+
+# Python cache/artifacts
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+.env
